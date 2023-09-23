@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'HankenGrotesk'; /* Give your font a name */
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype'); /* Specify the path to your TTF font file */
+  }
+body{
+    background-color: #ffffff;
+}
+
+.container-main{
+    position: absolute;
+    height: 483px;
+    width: 675px;
+    left: 49%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border-radius: 6%;
+    box-shadow: 30px 30px 50px rgba(238, 238, 238, 0.911);
+}
+
+.results{
+    position: absolute;
+    background: linear-gradient(to top, rgb(50 45 235), rgb(92, 86, 255));
+    height: 483px;
+    width: 360px;
+    border-radius: 6%;
+}
+.results h2{
+    font-family: 'HankenGrotesk', sans-serif;
+    color: rgb(203, 182, 253);
+    position: absolute;
+    top: 10%;
+    left: 49%;
+    font-size: 26px;
+    transform: translate(-50%, -50%);
+}
+.results .score-ball{
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to bottom, rgb(44, 38, 240), rgb(66, 59, 247));
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.results .score-ball .score-result{
+    position: absolute;
+    top: 45%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-family: 'HankenGrotesk', sans-serif;
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+}
+.results .score-ball .score-of{
+    position: absolute;
+    top: 70%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-family: 'HankenGrotesk', sans-serif;
+    font-size: 20px;
+    color: rgb(203, 182, 253);
+    font-weight: 700;
+}
+.results h1{
+    position: absolute;
+    top: 74%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-family: 'HankenGrotesk', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.results p{
+    position: absolute;
+    top: 86%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: rgb(203, 182, 253);
+    font-family: 'HankenGrotesk', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.summary{
+    position: absolute;
+    left: 350px;
+    background-color: transparent;
+    width: 325px;
+    height: 483px;
+    text-align: center;
+}
+.summary h1{
+    position: absolute;
+    top: 7%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    color: rgb(48 59 89);
+    font-family: 'HankenGrotesk', sans-serif;
+    font-size: 25px;
+
+}
+.summary > div{
+    position: relative;
+    top: 20%;
+    left: 49%;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 230px;
+    height: 50px;
+    justify-content: space-between;
+    display: flex; /* Use flexbox to control alignment */
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align to the left */
+    padding-left: 20px;
+    font-family: 'HankenGrotesk', sans-serif;
+}
+.summary svg{
+    margin-right: 10px;
+    margin-left: -5px;
+}
+.summary .reaction{
+    background-color: rgb(255 246 245);
+    color: #F55;
+
+}
+.summary .memory{
+    background-color: rgb(255 251 242);
+    color: #FFB21E;
+}
+.summary .verbal{
+    background-color: rgb(242 250 250);
+    color: #00BB8F;
+}
+.summary .visual{
+    background-color: rgb(243 243 253);
+    color: #1125D6;
+}
+.summary .score-out-of{
+    font-weight: 700;
+    position: absolute;
+    right: 10px;
+    color: rgb(146 142 157);
+}
+.summary .score-out-of-result{
+    font-weight: 800;
+    position: absolute;
+    right: 45px;
+    color: rgb(48 59 89);
+}
+.summary .continue{
+    margin-top: 40px;
+    border-radius: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    background-color: rgb(48 59 89);
+    color: white;
+    font-weight:600;
+}
